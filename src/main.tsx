@@ -1,10 +1,12 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import './index.css';
-import Teste from './components/specific/Teste';
+import Header from './components/specific/Header';
+import Section from './components/specific/section';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <Teste />
+    <Header />
+    <Section />
   </StrictMode>,
 );
