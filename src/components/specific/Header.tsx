@@ -12,7 +12,8 @@ const liMobile = 'hover:border-l-4 hover:border-l-blue-500 p-1 w-[60%]';
 const liTablet =
   'sm:hover:border-0 sm:px-3 sm:items-center sm:flex sm:jutify-center sm:w-[100%] sm:gap-0';
 
-const aTablet = 'sm:hover:border-b-4 sm:hover:border-blue-500 sm:text-sm xl:text-2xl';
+const aTablet =
+  'sm:hover:border-b-4 sm:hover:border-blue-500 sm:text-sm xl:text-2xl';
 
 const barra = 'sm:border-l-2 sm:border-l-black sm:mb-2 sm:py-3';
 
