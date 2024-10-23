@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@media (max-width: 640px) {
+    .bg-Spotify {
+      background-image: url('../src/assets/images/bursts-mobile.svg');
+    }
+  }
+  
+  @media (min-width: 641px) {
+    .bg-Spotify {
+      background-image: url('../src/assets/images/bursts.svg');
+    }
+  }
+
+
+@layer utilities {
+  .text-20rem {
+    @apply text-[10rem];
+  }
+}
+
+  
