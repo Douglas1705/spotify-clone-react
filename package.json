@@ -1,10 +1,10 @@
 {
+  "homepage": "https://Douglas1705.github.io/spotify-clone-react",
   "name": "template-react-102024",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "homepage": "https://Douglas1705.github.io/spotify-clone-react",
+  "scripts": {    
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
