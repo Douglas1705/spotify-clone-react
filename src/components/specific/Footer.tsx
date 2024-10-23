@@ -4,12 +4,11 @@ import TwitterLogo from '../../assets/images/icons8-twitter.svg';
 import FacebookLogo from '../../assets/images/icons8-facebook.svg';
 
 function Footer() {
-  const logoSocial =
-    'w-16 hover:outline hover:outline-2 hover:outline-blue-500 ';
+  const logoSocial = 'w-16';
   const containerLInksMobile =
     'flex flex-col gap-4 xl:text-left xl:text-2xl xl:mt-8';
 
-  const aLinks = 'sm:text-3xl';
+  const aLinks = 'sm:text-2xl lg:text-base';
 
   return (
     <footer className="container mx-auto max-w-screen-2xl flex flex-col justify-center text-center items-center gap-14 py-8 px-4 xl:flex-row xl:px-8 xl:py-24 xl:h-auto xl:items-start">

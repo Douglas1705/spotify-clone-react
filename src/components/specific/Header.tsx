@@ -2,7 +2,7 @@ import SpotifyLogo from '../../assets/images/Black_Spotify_logo_with_text.svg';
 import MenuButton from '../common/MenuButton';
 
 const ulMobile =
-  'hidden absolute text-center mt-2 left-0 flex flex-col gap-2 w-auto py-4 w-[100%] bg-white rounded-lg items-center ';
+  'hidden absolute text-center mt-2 left-0 flex flex-col gap-2 w-auto py-4 w-full bg-white rounded-lg items-center ';
 
 const ulTablet =
   'sm:flex sm:flex-row sm:gap-0 sm:relative sm:left-0 sm:justify-center sm:mt-0 sm:h-10 sm:w-auto';
