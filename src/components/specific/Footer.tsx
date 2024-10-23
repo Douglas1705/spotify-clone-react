@@ -8,7 +8,7 @@ function Footer() {
   const containerLInksMobile =
     'flex flex-col gap-4 xl:text-left xl:text-2xl xl:mt-8';
 
-  const aLinks = 'sm:text-2xl lg:text-base';
+  const aLinks = 'sm:text-2xl lg:text-base xl:text-2xl';
 
   return (
     <footer className="container mx-auto max-w-screen-2xl flex flex-col justify-center text-center items-center gap-14 py-8 px-4 xl:flex-row xl:px-8 xl:py-24 xl:h-auto xl:items-start">
@@ -28,7 +28,7 @@ function Footer() {
 
       <aside className={`${containerLInksMobile} ${aLinks}`}>
         <h2 className="font-bold">Empresa</h2>
-        <div className="flex flex-wrap gap-8 xl:text-left xl:gap-y-4 xl:justify-start xl:p-0 xl:flex-col xl:border-1 xl:border-black">
+        <div className="flex flex-wrap gap-8 sm:text-left xl:gap-y-4 xl:justify-start xl:p-0 xl:flex-col xl:border-1 xl:border-black">
           <a href="">Sobre</a>
           <a href="">Empregos</a>
           <a href="">For the record</a>
@@ -37,7 +37,7 @@ function Footer() {
 
       <aside className={`${containerLInksMobile} ${aLinks}`}>
         <h2 className="font-bold">Comunidades</h2>
-        <div className="flex flex-wrap text-center justify-center px-4 gap-x-8 gap-y-4xl:text-left xl:gap-y-4 xl:justify-start xl:p-0 xl:flex-col">
+        <div className="flex flex-wrap text-center justify-center px-4 gap-x-8 sm:text-left gap-y-4xl:text-left xl:gap-y-4 xl:justify-start xl:p-0 xl:flex-col">
           <a href="">Para Artista</a>
           <a href="">Desenvolvedores</a>
           <a href="">Pubilicidade</a>
